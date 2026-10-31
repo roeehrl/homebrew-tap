@@ -1,9 +1,9 @@
 # Written by hopsesh's release workflow (scripts/package-manifests.sh); edits are overwritten.
 cask "hopsesh-app" do
-  version "0.6.4"
-  sha256 "6459bc91be9fe8801add106877d5afad2e18df0f8a97e33f3e6ebc7f22336145"
+  version "0.7.0"
+  sha256 "5ba7bcfd849255fb85f41870a4b33f2912a2a626f3e30a6f90f96f47583e7afc"
 
-  url "https://github.com/roeehrl/hopsesh/releases/download/v0.6.4/hopsesh-#{version}-macos-universal.dmg"
+  url "https://github.com/roeehrl/hopsesh/releases/download/v0.7.0/hopsesh-#{version}-macos-universal.dmg"
   name "hopsesh"
   desc "Move Claude Code and Codex sessions between machines and agents"
   homepage "https://codonic.dev/apps/hopsesh"
