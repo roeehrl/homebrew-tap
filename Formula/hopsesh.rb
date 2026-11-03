@@ -2,28 +2,28 @@
 class Hopsesh < Formula
   desc "Move Claude Code and Codex sessions between machines and agents"
   homepage "https://github.com/roeehrl/hopsesh"
-  version "0.7.0"
+  version "0.8.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/roeehrl/hopsesh/releases/download/v0.7.0/hopsesh_0.7.0_darwin_arm64.tar.gz"
-      sha256 "73f12e862a644f5541b2875cf9106dc6f8cb80d913f555ce26f552b4512194ff"
+      url "https://github.com/roeehrl/hopsesh/releases/download/v0.8.0/hopsesh_0.8.0_darwin_arm64.tar.gz"
+      sha256 "c21c641f3f9b79fad9cd8a3dea4054337df373fe9de0d65096835be325738ac9"
     end
     on_intel do
-      url "https://github.com/roeehrl/hopsesh/releases/download/v0.7.0/hopsesh_0.7.0_darwin_amd64.tar.gz"
-      sha256 "708c9834f6046ab8045a9ab8133ffd963849d96179bc38950a8a8b483b4fc282"
+      url "https://github.com/roeehrl/hopsesh/releases/download/v0.8.0/hopsesh_0.8.0_darwin_amd64.tar.gz"
+      sha256 "3dc81eeef652a091042040139d7048888eeefe480962e03551b96df5a168db3b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/roeehrl/hopsesh/releases/download/v0.7.0/hopsesh_0.7.0_linux_arm64.tar.gz"
-      sha256 "8720900536c677d4924871b9b95843ddc2f7b34823b14e4ecf815bd3a222d3a3"
+      url "https://github.com/roeehrl/hopsesh/releases/download/v0.8.0/hopsesh_0.8.0_linux_arm64.tar.gz"
+      sha256 "59ec6470fa6c9d7783e3a3a4b2443591ce3621aa7f7574283539fad0c7c57d21"
     end
     on_intel do
-      url "https://github.com/roeehrl/hopsesh/releases/download/v0.7.0/hopsesh_0.7.0_linux_amd64.tar.gz"
-      sha256 "4801f34c9e54d6811c6e9175d7e879101397f5dfb8e5f19e30122e06922eba9d"
+      url "https://github.com/roeehrl/hopsesh/releases/download/v0.8.0/hopsesh_0.8.0_linux_amd64.tar.gz"
+      sha256 "069b755f5dc72bb6bcac3a8fe1f58f951179bca78e0e8a4d5dc269da4d2596f6"
     end
   end
 
